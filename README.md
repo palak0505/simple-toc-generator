@@ -1,8 +1,12 @@
  Simple TOC Generator
 
 A WordPress plugin that automatically generates a collapsible Table of Contents (TOC) from `<h2>` and `<h3>` headings in your posts.
+## 📸 Screenshots
 
-![Demo GIF or Screenshot](assets/screenshot.png)
+### ✅ TOC Appearing in a WordPress Post
+
+![Simple TOC Screenshot](assets/Toc_generator_wordpress.png)
+
 
 Features
 
@@ -15,5 +19,4 @@ Features
 ## Installation
 
 1. Clone or download this repository into:
-  git clone git remote add origin https://github.com/your-username/simple-toc-generator.git
-
+  git clone git remote add origin https://github.com/palak0505/simple-toc-generator.git
