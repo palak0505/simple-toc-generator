@@ -1,0 +1,75 @@
+.simple-toc {
+  background: linear-gradient(to right, #e3f2fd, #e1f5fe);
+  border: 2px solid #0288d1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px 0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.simple-toc strong {
+  font-size: 1.5rem;
+  color: #01579b;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.simple-toc ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.simple-toc ul li {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.simple-toc ul li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: #0288d1;
+  font-size: 1.2em;
+}
+
+.simple-toc ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.simple-toc ul li a:hover {
+  color: #0288d1;
+  text-decoration: underline;
+}
+
+.toc-toggle {
+  background-color: #0288d1;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.toc-toggle:hover {
+  background-color: #0277bd;
+}
+
+.collapsible .toc-content {
+  display: none;
+}
+
+.collapsible.active .toc-content {
+  display: block;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
